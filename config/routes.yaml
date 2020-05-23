@@ -1,3 +1,6 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+coordinates_controller:
+  path: /coordinates
+  controller: \App\Controller\CoordinatesController::content
