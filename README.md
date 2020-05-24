@@ -1,10 +1,10 @@
-#Square calculator
+# Square calculator
 
-##Requirements
+## Requirements
 0. PHP >= 7.2
 0. Symfony cli
 
-##Setup project locally
+## Setup project locally
 0. Clone the project repository
 0. Run `cd ./coordinate-calculator`
 0. Run `composer install`
