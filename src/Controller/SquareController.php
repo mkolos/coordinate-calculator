@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
 namespace App\Controller;
 
@@ -47,8 +47,9 @@ class SquareController extends AbstractController
 
     protected function submitForm(Square $square): void
     {
-        $square->setOtherPointsOfSquare();
-        $square->setPerimeterOfSquare();
+        $square->calculateOtherPointsOfSquare();
+        $square->calculatePerimeterOfSquare();
         $square->calculateAreaOfSquare();
+        $square->calculateCostOfFence();
     }
 }
